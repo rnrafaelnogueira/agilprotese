@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  h1 Dentista
+  hr
+  br
+  h2= value.s_nome
+  br
+  p ID: #{value.s_cpf}
+  p Cliente desde: #{value.t_data}
+  form(method="POST", action="/dentista/delete/#{value._id}", role="form")
+    input(type="hidden" name="_method" value="delete")
+    input(type="submit" , value="Excluir", class="btn btn-danger")
+  br
+  a(href="/dentista" title="Voltar") Voltar

@@ -1,0 +1,28 @@
+extends ../layout
+
+block content
+  h1 Alteração de Usuario/Grupo
+  br
+  br
+  form(method="POST",action="/usuariogrupo/edit/#{usuariogrupo_id}",role="form")
+    input(type="hidden"  name="_method"  value="put")
+    div(class="form-group")
+      label Usuario
+      select(class="form-control" , name="user_id")
+        each usuario, i in usuarios
+          if (usuario._id == user_id)
+            option(selected = "selected" value="#{usuario._id}" name="user_id" ) #{usuario.nome}
+          else
+            option(value="#{usuario._id}" name="user_id" ) #{usuario.nome}
+    div(class="form-group")
+      label Grupo
+      select(class="form-control" , name="grupo_id")
+        each grupo, cont in grupos
+          if (grupo._id == grupo_id)
+            option(selected = "selected" value="#{grupo._id}" name="grupo_id" ) #{grupo.s_nome}
+          else
+            option(value="#{grupo._id}" name="grupo_id" ) #{grupo.s_nome}
+    input(type="submit", value="Cadastrar" , class="btn btn-sucess")
+    br
+    br
+    a(href="/usuariogrupo" title="Voltar") Voltar

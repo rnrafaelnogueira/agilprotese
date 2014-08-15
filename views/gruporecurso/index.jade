@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+  h1 Listagen de Grupo/Recurso
+  br
+  br
+  a(href="/gruporecurso/create" title="Cadastrar" class="btn btn-success") Cadastrar
+  br
+  br
+  table(class="table")
+    thead
+      tr
+        th Grupo
+        th Recurso
+        th Ações
+    tbody
+      each valor, i in lista
+        tr
+          td #{valor.grupo_id.s_nome}
+          td #{valor.recurso_id.s_nome}
+          td
+            a(href="/gruporecurso/edit/#{valor._id}&#{valor.grupo_id._id}&#{valor.recurso_id._id}" title="Editar" class="btn btn-info") Editar
+            &nbsp
+            a(href="/gruporecurso/show/#{valor._id}" title="Visualizar" class="btn btn-primary") Visualizar

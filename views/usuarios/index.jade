@@ -1,0 +1,26 @@
+extends ../layout
+
+block content
+  h1 Listagem de usuarios
+  hr
+  br
+  a(href="/usuarios/create", title="Cadastrar", class="btn btn-success") Cadastrar
+  br
+  br
+  table(class="table")
+    thead
+      tr
+        th Nome:
+        th Login:
+        th Data:
+        th Ações:
+    tbody
+      each valor, i in lista
+        tr
+          td #{valor.nome}
+          td #{valor.login}
+          td #{valor.data_cad}
+          td
+            a(href="/usuarios/edit/#{valor._id}", title="Editar", class = "btn btn-info") Editar
+            &nbsp
+            a(href="/usuarios/show/#{valor._id}", title="Editar", class = "btn btn-primary") Visualizar

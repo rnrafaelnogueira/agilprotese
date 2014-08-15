@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+  h1 Cadastrar Grupo/Recurso
+  hr
+  br
+  form(action="/gruporecurso" method="POST" role="form")
+    div(class="form-group")
+      label Grupo
+      select(name="grupo_id" class="form-control")
+        each grupo, i in grupos
+          option(value="#{grupo._id}" name="grupo_id") #{grupo.s_nome}
+    div(class="form-group")
+      label Recurso
+      select(name="recurso_id" class="form-control")
+        each recurso, i in recursos
+          option(value="#{recurso._id}" name="recurso_id") #{recurso.s_nome}
+    input(type="submit" value="Cadastro" class="btn btn-success")
+    br
+    br
+    a(href="/gruporecurso" title="Voltar") Voltar

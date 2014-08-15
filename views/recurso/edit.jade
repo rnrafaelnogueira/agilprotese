@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+  h1 Alteração Recurso
+  br
+  br
+  form(action="/recurso/edit/#{value._id}" method="POST" role="form")
+    input(type="hidden" name="_method" value="put")
+    div(class="form-group")
+      label Nome
+      input(type="text" name="s_nome" value="#{value.s_nome}" class="form-control")
+    div(class="form-group")
+      label Controller
+      input(type="text" name="s_controller" value="#{value.s_controller}" class="form-control")
+    div(class="form-group")
+      label Action
+      input(type="text" name="s_action" value="#{value.s_action}" class="form-control")
+    input(type="submit" value="Editar" class="btn btn-sucess")
+  br
+  br
+  a(href="/recurso" title="Voltar") Voltar

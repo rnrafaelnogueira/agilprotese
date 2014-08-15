@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    h3= msg
+    div(class="navbar navbar-inverse navbar-fixed-top")
+      a(class="navbar-brand") Login
+    hr
+    form(method="POST" , action="/login" , role="form-control")
+      div(class="form-group")
+        label Login:
+        input(type="text" , name="s_login" , class="form-control")
+      div(class="form-group")
+        label Senha:
+        input(type="text" , name="s_pwd" , class="form-control")
+      input(type="submit" , value="Entrar" , class="btn btn-success")
+    footer
+      p Desenvolvido por Rafael Nogueira

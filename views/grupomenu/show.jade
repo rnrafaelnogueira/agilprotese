@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h1 Grupo/Menu
+  hr
+  br
+  p Grupo: #{value.grupo_id.s_nome}
+  p Recruso: #{value.menu_id.s_nome}
+  form(method="POST", action="/grupomenu/delete/#{value._id}", role="form")
+    input(type="hidden" name="_method" value="delete")
+    input(type="submit" , value="Excluir", class="btn btn-danger")
+  br
+  a(href="/grupomenu" title="Voltar") Voltar

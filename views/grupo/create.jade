@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+  h1 Cadastro de Grupo
+  br
+  br
+  form(method="POST", action="/grupo" , role="form")
+    div(class="form-group")
+      label Nome
+      input(type="text" , name="s_nome", class="form-control")
+    input(type="submit" , value="Cadastrar" , class="btn btn-success")
+  br
+  br
+  a(href="/grupo" title="Voltar") Voltar

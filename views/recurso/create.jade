@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+  h1 Cadastrar Recurso
+  hr
+  br
+  br
+  form(action="/recurso" method="POST" role="form")
+    div(class="form-group")
+      label Nome
+      input(type="text" name="s_nome" class="form-control")
+    div(class="form-group")
+      label Controller
+      input(type="text" name="s_controller" class="form-control")
+    div(class="form-group")
+      label Action
+      input(type="text" name="s_action" class="form-control")
+    input(type="submit" value="Cadastrar" class="btn btn-success")
+  br
+  br
+  a(href="/recurso" title="Voltar") Voltar

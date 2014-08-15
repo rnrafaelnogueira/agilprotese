@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+  h1 Menu
+  br
+  br
+  p Nome : #{value.s_nome}
+  br
+  form(action="/menu/delete/#{value._id}" method="POST" role="form")
+    input(type="hidden" name="_method" value="delete")
+    input(type="submit" value="Excluir" class="btn btn-danger")
+  br
+  br
+  a(href="/menu" title="Voltar") Voltar

@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  h1 Alteração de Requisições
+  br
+  br
+  form(method="POST", action="/requisicao" , role="form")
+    input(type="hidden" , value="_method" , nema="put")
+    div(class="form-group")
+      label Nome
+      input(type="text" , name="s_nome" , value="#{value.s_nome}" , class="form-control")
+    input(type="submit", value="Salvar", class="btn btn-sucess")
+  br
+  br
+  a(href="/requisicao" title = "Voltar") Voltar

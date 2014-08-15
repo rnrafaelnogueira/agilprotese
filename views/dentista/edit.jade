@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+  h1 Alteração de Dentista
+  br
+  br
+  form(method="POST",action="/dentista/edit/#{value._id}",role="form")
+    input(type="hidden"  name="_method"  value="put")
+    div(class="form-group")
+      label Nome:
+      input(type="text" , name="s_nome", class="form-control", value="#{value.s_nome}")
+    div(class="form-group")
+      label CPF:
+      input(type="text" , name="s_cpf" , class="form-control", value="#{value.s_cpf}")
+    input(type="submit", value="Cadastrar" , class="btn btn-sucess")
+    br
+    br
+    a(href="/dentista" , title="Voltar") Voltar

@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+  h1 Requisição
+  hr
+  br
+  h3=value.s_nome
+  br
+  form(method="POST" , action="/requisicao/delete/#{value._id}" , role="form")
+    input(type="hidden" name="_method" value="delete")
+    input(type="submit" value="Excluir" class="btn btn-danger")
+  br
+  br
+  a(href="/requisicao" title="Voltar") Voltar

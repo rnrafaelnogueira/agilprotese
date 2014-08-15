@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+  h1 Associar Usuario/Grupo
+  br
+  br
+  form(method="POST" , action="/usuariogrupo" , role="form-control")
+    div(class="form-group")
+      label Usuario
+      select(class="form-control" , name="user_id")
+        each usuario, i in usuarios
+          option(value="#{usuario._id}" name="user_id") #{usuario.nome}
+    div(class="form-group")
+      label Grupo
+      select(class="form-control" , name="grupo_id")
+        each grupo, cont in grupos
+          option(value="#{grupo._id}" name="grupo_id") #{grupo.s_nome}
+    input(type="submit", value="Cadastrar" , class="btn btn-sucess")
+    br
+    br
+    a(href="/usuariogrupo" title="Voltar") Voltar

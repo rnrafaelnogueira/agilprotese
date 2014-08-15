@@ -1,0 +1,29 @@
+extends ../layout
+
+block content
+  h1 Alterar Grupo/Recurso
+  hr
+  br
+  form(action="/gruporecurso/edit/#{gruporecurso_id}" method="POST" role="form")
+    input(type="hidden" name="_method" value="put")
+    div(class="form-group")
+      label Grupo
+      select(name="grupo_id" class="form-control")
+        each grupo, i in grupos
+          if(grupo._id == grupo_id)
+            option(name="grupo_id" class="form-control" value="#{grupo._id}" selected="selected") #{grupo.s_nome}
+          else
+            option(name="grupo_id" class="form-control" value="#{grupo._id}" ) #{grupo.s_nome}
+    div(class="form-group")
+      label Recurso
+      select(name="recurso_id" class="form-control")
+        each recurso, i in recursos
+          if (recurso._id == recurso_id)
+            option(name="recurso_id" class="form-control" selected="selected" value="#{recurso._id}" ) #{recurso.s_nome}
+          else
+            option(name="recurso_id" class="form-control" value="#{recurso._id}" ) #{recurso.s_nome}
+    input(type="submit" value="Editar" class="btn btn-success")
+  br
+  br
+  a(href="/gruporecurso" title="Voltar") Voltar
+

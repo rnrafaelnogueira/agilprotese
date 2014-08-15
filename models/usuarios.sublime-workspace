@@ -1,0 +1,608 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Fe",
+				"FETCH_ASSOC"
+			],
+			[
+				"_",
+				"_db"
+			],
+			[
+				"mo",
+				"model_tabela_controle"
+			],
+			[
+				"re",
+				"redirect"
+			],
+			[
+				"G",
+				"GrupoController"
+			],
+			[
+				"r",
+				"recurso"
+			],
+			[
+				"u",
+				"usuario_menu"
+			],
+			[
+				"g",
+				"grupo"
+			],
+			[
+				"user",
+				"userId"
+			],
+			[
+				"a",
+				"acl"
+			],
+			[
+				"all",
+				"allowed"
+			],
+			[
+				"fo",
+				"forums"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"i",
+				"id"
+			],
+			[
+				"form-",
+				"form-grup"
+			],
+			[
+				"getP",
+				"getPermissaoSuporte"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"long",
+				"long2emp"
+			],
+			[
+				"mod",
+				"model_tvars"
+			],
+			[
+				"Model_T",
+				"model_tvars"
+			],
+			[
+				"fe",
+				"fetchOne"
+			],
+			[
+				"fin",
+				"findById"
+			],
+			[
+				"Usu",
+				"usuarios"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"zip",
+				"zipfile"
+			],
+			[
+				"wit",
+				"write"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"arq",
+				"arquivos"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/usuarios.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/recurso.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/grupo.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/testes.sql",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuariogrupo/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/controllers/usuariogrupo.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/usuariogrupo.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/dentista.js",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/pat/views/scripts/tabelas/del.phtml",
+		"/home/rafael.nogueira/polibras/web4/application/modules/pat/views/scripts/tabelas/add.phtml",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/pat/views/scripts/tabelas/add.phtml",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/HISTORICO/33-tabela-chamados-jira.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/SPRINT_web_2014_09/45-erp-fix_alteracao_tabela_variavel_ambiente.sql",
+		"/home/rafael.nogueira/polibras/webxt/application/forms/TesteAutenticacao.php",
+		"/home/rafael.nogueira/NetBeansProjects/palm3_trunk/tests/log/report/models_DbTable_Mensagem.php.html",
+		"/home/rafael.nogueira/NetBeansProjects/palm3_trunk/application/models/TPontoEletronico.php",
+		"/home/rafael.nogueira/NetBeansProjects/palm3_trunk/public/js/library/extjs/src/widgets/layout/MenuLayout.js",
+		"/home/rafael.nogueira/polibras/webxt/application/models/Tvars.php",
+		"/home/rafael.nogueira/polibras/web4/public/export.php",
+		"/home/rafael.nogueira/NetBeansProjects/palm3_trunk/public/js/exibir-dicas-iniciais.js",
+		"/home/rafael.nogueira/NetBeansProjects/palm3_trunk/application/controllers/EnvioDelecaoTemporariasController.php",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/controllers/grupo.js",
+		"/home/rafael.nogueira/polibras/webxt/application/models/GrupoEmpresa.php",
+		"/home/rafael.nogueira/polibras/webxt/library/Polibr/Action/Helper/GetGrid.php",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/HISTORICO/17_03/36-erp-fix_melhorias_syncon_sprint_web_2014_05.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/ISSUES/teste.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/SPRINT_web_2014_09/44-erp-fix_melhorias_listagem_fastseller.sql",
+		"/home/rafael.nogueira/polibras/webxt/application/models/SynconSyncTabelas.php",
+		"/home/rafael.nogueira/polibras/webxt/application/models/DbTable/SynconSyncTabelas.php",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/usuariogrupo.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/app.js",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/pat/controllers/TabelasController.php",
+		"/home/rafael.nogueira/polibras/webxt/application/models/TabelaMobileControle.php",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/ISSUES/consultas.sql",
+		"/home/rafael.nogueira/projetosnodejs/arquivos/sss",
+		"/home/rafael.nogueira/NetBeansProjects/palm3_trunk/library/MPDF/font/symbol.php",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/SPRINT_web_2014_07/syncon_atualiza_dados_rca",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/fix_pendente.txt",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/tmk/views/scripts/fluxo-form/form-numerico.phtml",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/HISTORICO/3-erp-fix_implantacao_syncon_new.sql",
+		"/home/rafael.nogueira/polibras/webxt/public/assets/js/functions_combos.js",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/HISTORICO/fix_SYNC_restricao_usuario_poli_admin.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/HISTORICO/fix.SYNC_criacao_rel_log_conecoes_syncon.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/HISTORICO/18-erp-fix_criacao_tabela_precadastro_tipos.sql",
+		"/home/rafael.nogueira/polibras/webxt/application/configs/definicoes.txt",
+		"/home/rafael.nogueira/polibras/webxt/application/configs/constantes.ini",
+		"/home/rafael.nogueira/polibras/webxt/application/configs/application.ini",
+		"/home/rafael.nogueira/polibras/webxt/application/Bootstrap.php",
+		"/home/rafael.nogueira/polibras/webxt/.gitignore",
+		"/home/rafael.nogueira/polibras/webxt/application/models/TabelaCopy.php",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/pat/views/scripts/browser-query/get-tabelas.phtml",
+		"/home/rafael.nogueira/polibras/webxt/application/models/DbTable/RegraSortimentoParametros.php",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/node_modules/acl/node_modules/mongodb/node_modules/kerberos/lib/auth_processes/mongodb.js",
+		"/home/rafael.nogueira/Documentos/WEB4/FIX - WEB4/ISSUES/consulta.sql",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuariogrupo/create.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/teste.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/layout.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/grupo/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuariogrupo/show.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuariogrupo/edit.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/usuario_grupo.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/dentista/create.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/controllers/login.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/grupo/create.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/dentista/show.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/grupo/show.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/dentista.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/login.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/grupo.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/dentista/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/dentista/edit.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/controllers/dentista.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/grupo/edit.jade",
+		"/home/rafael.nogueira/polibras/web4/application/modules/rotas/controllers/AcompanhamentoVendedorController.php",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/home/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/usuario_menu.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/library/permissoes.js",
+		"/home/rafael.nogueira/polibras/web4/application/forms/Create.php",
+		"/home/rafael.nogueira/polibras/web4/application/modules/pat/controllers/FixController.php",
+		"/home/rafael.nogueira/polibras/web4/application/configs/web_palm4.ini",
+		"/home/rafael.nogueira/polibras/web4/application/forms/Fix.php",
+		"/home/rafael.nogueira/NetBeansProjects/palm3_trunk/application/models/TempVars.php",
+		"/home/rafael.nogueira/polibras/webxt/application/models/TipoVenda.php",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/teste.sh",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/acl/permissoes.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/node_modules/acl/lib/acl.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/login/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/controllers/usuarios.js",
+		"/home/rafael.nogueira/polibras/webxt/application/models/CentralUser.php",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/default/controllers/LoginController.php",
+		"/home/rafael.nogueira/Documentos/WEB4/FIX - WEB4/consultas.sql",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/pat/controllers/SyncVarsController.php",
+		"/home/rafael.nogueira/polibras/web4/application/modules/pat/controllers/TabelasController.php",
+		"/home/rafael.nogueira/polibras/web4/application/modules/pat/views/scripts/tabelas/index.phtml",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/pat/views/scripts/tabelas/index.phtml",
+		"/home/rafael.nogueira/polibras/web4/application/modules/pat/views/scripts/tabelas/indice.phtml",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/gerencia/controllers/UsuariosController.php",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/node_modules/acl/lib/contract.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/acl/acl.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/controllers/home.js",
+		"/home/rafael.nogueira/Documentos/WEB4/FIX - WEB4/SPRINT_web_2014_09/lista_fixs.txt",
+		"/home/rafael.nogueira/polibras/web4/public/.htaccess",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/gerencia/views/scripts/usuarios/gerar-licenca.phtml",
+		"/home/rafael.nogueira/polibras/webxt/application/modules/gerencia/views/scripts/usuarios/get-faixa-ip-usuario.phtml",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/SPRINT_web_2014_09/46-erp-fix_sprint_web_2014_09.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/SPRINT_web_2014_09/47-erp-fix_correcao_pre_cadastro.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/SPRINT_web_2014_09/fix_empresa.sql",
+		"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON/SPRINT_web_2014_09/lista_fixs.txt",
+		"/home/rafael.nogueira/Documentos/WEB4/FIX - WEB4/ISSUES/lista_fixs.txt",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/package.json",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/controllers/requisicao.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/index.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/home.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/requisicao/create.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/requisicao/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/requisicao/edit.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/requisicao/show.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuarios/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/requisicao.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/models/requisicao.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/usuarios.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuarios/show.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/contato/create.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuarios/edit.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/usuarios/create.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/contato/index.jade",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/routes/clientes.js",
+		"/home/rafael.nogueira/projetosnodejs/waibtec/views/dentista/index.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/rafael.nogueira/polibras/webxt/application/modules/pat/views",
+			"/home/rafael.nogueira/polibras/webxt/application",
+			"/home/rafael.nogueira/polibras/webxt/application/models",
+			"/home/rafael.nogueira/Documentos/SYNCON/FIX - SYNCON",
+			"/home/rafael.nogueira/polibras/webxt",
+			"/home/rafael.nogueira/polibras/web4",
+			"/home/rafael.nogueira/polibras/webxt/application/modules",
+			"/home/rafael.nogueira/polibras/webxt",
+			"/home/rafael.nogueira/polibras/web4"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"if",
+			"fetchOne",
+			"fechOne",
+			"u_grid_id = 333",
+			"333",
+			"\nWITH cte_lista AS (",
+			"createTa",
+			"create",
+			"getDados",
+			"save",
+			"b_ativo",
+			"grupo",
+			"<?",
+			"index",
+			"		\n",
+			"consulta.sql",
+			"u_modulo",
+			"numPathComponents",
+			"middleware",
+			"userid",
+			"sess",
+			"createt",
+			"create",
+			"ErrorController",
+			"getEncryptPwd",
+			"Encr",
+			"login",
+			"HttpError",
+			"hasLicenca",
+			"getLicencasDisponiveis",
+			"PL01",
+			"TEST",
+			"46-erp-fix_sprint_web_2014_09.sql",
+			"'",
+			"requisicao",
+			"mostraSQl",
+			"mostraSql",
+			"grid",
+			"gris",
+			"mostra",
+			"mostraG",
+			"mostra",
+			"mostraGrid",
+			"mostrarGrid",
+			"alert",
+			"alertMsg",
+			"getPe",
+			"getPermissao",
+			"getPer",
+			"tipo_login",
+			"u_user",
+			"user_id",
+			"$session",
+			"'",
+			"Saldo",
+			"refresh_folder_list",
+			"ddddffffff",
+			"\"*\",\n",
+			"ignore_inodes",
+			"usuarioAu",
+			"low",
+			"empresa",
+			"Empresa:",
+			"Empresa",
+			"99",
+			"getTodosVendedores",
+			"getVendedoresSupervisionados",
+			"getTodosCodMaqVendedores",
+			"mostraS",
+			"mostrarSQ",
+			"mostrar",
+			"addLicen",
+			"Licen",
+			"admin",
+			"adminRCA",
+			"adminRCa",
+			"getNaoContatos",
+			"Json",
+			"addPermissaoRecursosUsuarioAutorizacao",
+			"addContato",
+			"CURLOPT_USERPWD",
+			"getLi",
+			"getLicencasDisponiveis",
+			"getVariaveisAmbiente",
+			"_model_syncon_variavel_ambiente",
+			"_model_vendedores",
+			"try",
+			"t_orgven_vendedor_cliente_produto",
+			"public function",
+			"mostrarSQL",
+			"mostrar",
+			"flag",
+			"tVars",
+			"regraCboSupervisor",
+			"<?",
+			"consultaSemRotaConc",
+			"getDadosConsultaSemRotaTipos",
+			"gridPrincipal",
+			"post",
+			"email",
+			"emailnn",
+			"erro"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"usuariogrupo",
+			"''"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "usuarios.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tabela/",
+				"webxt/application/modules/pat/views/scripts/tabelas/edt.phtml"
+			],
+			[
+				"model/dbtable/synconsynctabelas",
+				"webxt/application/models/DbTable/SynconSyncTabelas.php"
+			],
+			[
+				"model/synconsynctabelas",
+				"webxt/application/models/SynconSyncTabelas.php"
+			],
+			[
+				"tabelamob",
+				"webxt/application/models/TabelaMobileControle.php"
+			],
+			[
+				"tvar",
+				"webxt/application/models/Tvars.php"
+			],
+			[
+				"tabe",
+				"webxt/application/models/TabelaMobileControle.php"
+			],
+			[
+				"instalar-versao",
+				"web4/application/modules/pat/views/scripts/atualizacao-versao-android/instalar-versao.phtml"
+			],
+			[
+				"intalar",
+				"web4/application/modules/pat/views/scripts/atualizacao-versao-android/instalar-versao.phtml"
+			],
+			[
+				"desconto/",
+				"webxt/application/modules/pat/views/scripts/descontos/index.phtml"
+			],
+			[
+				"atualizacao-versao-a",
+				"web4/application/modules/pat/views/scripts/atualizacao-versao-android/index.phtml"
+			],
+			[
+				"",
+				"webxt/.gitignore"
+			],
+			[
+				"atualuzacao-vers",
+				"webxt/application/modules/pat/views/scripts/atualizacao-versao/index.phtml"
+			],
+			[
+				"model/tva",
+				"web4/application/models/Tvars.php"
+			],
+			[
+				"descontos/",
+				"webxt/application/modules/pat/views/scripts/descontos/index.phtml"
+			],
+			[
+				"atualizacaoversaoandroid",
+				"web4/application/modules/pat/views/scripts/atualizacao-versao-android/index.phtml"
+			],
+			[
+				"model/centraluser",
+				"web4/application/models/CentralUser.php"
+			],
+			[
+				"getgri",
+				"webxt/library/Polibr/Action/Helper/GetGrid.php"
+			],
+			[
+				"grid",
+				"webxt/library/Polibr/Action/Helper/Grid.php"
+			],
+			[
+				"application/models/com",
+				"webxt/application/models/ComunicadorGrupo.php"
+			],
+			[
+				"application/models/co",
+				"webxt/application/models/ComunicadorContato.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 287.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

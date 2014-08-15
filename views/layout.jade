@@ -1,0 +1,37 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    div(class="navbar navbar-inverse navbar-fixed-top")
+      div(class="container")
+        div(class="navbar-header")
+          a(href="/" class="navbar-brand") AGILPROTESE
+        div(class="navbar-collapse collapse" id = "navbar-main")
+          ul(class="nav navbar-nav")
+            li(class="dropdown")
+              a(href="/usuarios") Usuários
+            li
+              a(href="/dentista") Dentistas
+            li
+              a(href="/requisicao") Requisição
+            li
+              a(href="/grupo") Grupo
+            li
+              a(href="/usuariogrupo") Usuario/Grupo
+            li
+              a(href="/menu") Menu
+            li
+              a(href="/recurso") Recurso
+            li
+              a(href="/gruporecurso") Grupo/Recurso
+            li
+              a(href="/grupomenu") Grupo/Menu
+             li
+              a(href="/") Sair
+    div(class="container")
+      block content
+      footer
+        p Desenvolvido por Rafael Nogueira

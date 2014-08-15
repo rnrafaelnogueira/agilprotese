@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h1 Cadastro de Requisições
+  hr
+  br
+  form(method="POST" , action="/requisicao" , role="form")
+    div(class="form-group")
+      label Nome:
+      input(type="text", name="s_nome" , class="form-control")
+    input(type="submit" , value="Cadastrar" , class="btn btn-sucess")
+  br
+  a(href="/requisicao" , title="Voltar") Voltar

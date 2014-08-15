@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  h1 Cadastro de Menu
+  hr
+  br
+  form(action="/menu" , method="post" , role="form")
+    div(class="form-group")
+      label Nome
+      input(type="text" name="s_nome" class="form-control")
+    input(type="submit" value="Cadastrar" class="btn btn-success")
+  br
+  a(href="/menu" title="Voltar") Voltar

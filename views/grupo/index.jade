@@ -1,0 +1,22 @@
+extends ../layout
+
+block content
+  h1 Listagem de Grupos
+  hr
+  br
+  a(href='/grupo/create' , title='Cadastrar' , class="btn btn-success") Cadastrar
+  br
+  br
+  table(class="table")
+    thead
+      tr
+        th Nome
+        th Ações
+    tbody
+      each valor, i in lista
+        tr
+          td #{valor.s_nome}
+          td
+            a(href="/grupo/edit/#{valor._id}" title="Editar" class="btn btn-info") Editar
+            &nbsp
+            a(href="/grupo/show/#{valor._id}" title="Visualizar" class="btn btn-primary") Visualizar

@@ -1,0 +1,22 @@
+extends ../layout
+
+block content
+  h1 Listagem de Menu
+  br
+  br
+  a(href='/menu/create' title='Cadastrar' class="btn btn-success") Cadastrar
+  br
+  table(class='table')
+    thead
+      tr
+        th Nome
+        th Ações
+    tbody
+      each valor, i in lista
+        tr
+          td #{valor.s_nome}
+          td
+            a(href="/menu/edit/#{valor._id}" title="Editar" class="btn btn-info") Editar
+            &nbsp
+            a(href="/menu/show/#{valor._id}" title="Visualizar" class="btn btn-primary") Visualizar
+

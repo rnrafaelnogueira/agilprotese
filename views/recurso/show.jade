@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+  h1 Recurso
+  hr
+  br
+  h2=value.s_nome
+  br
+  p Controller : #{value.s_controller}
+  p Action : #{value.s_action}
+  br
+  br
+  form(action="/recurso/delete/#{value._id}" method="POST" role="form")
+    input(type="hidden" name="_method" value="delete")
+    input(type="submit" value="Excluir" class="btn btn-danger")
+  br
+  br
+  a(href="/recurso" title="Voltar") Voltar

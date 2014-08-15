@@ -1,0 +1,26 @@
+extends ../layout
+
+block content
+  h1 Listagem de dentistas
+  hr
+  br
+  a(href="/dentista/create" , title="Cadastrar" , class="btn btn-success") Cadastrar
+  br
+  br
+  table(class="table")
+    thead
+      tr
+        th Nome
+        th CPF
+        th Data de Cadastro
+        th Ações
+    tbody
+      each valor, i in lista
+        tr
+          td #{valor.s_nome}
+          td #{valor.s_cpf}
+          td #{valor.t_data}
+          td
+            a(href="/dentista/edit/#{valor._id}" , title="Editar" , class="btn btn-info") Editar
+            &nbsp
+            a(href="/dentista/show/#{valor._id}" , title="Visualizar" , class="btn btn-primary") Visualizar

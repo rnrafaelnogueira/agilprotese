@@ -1,0 +1,17 @@
+extends ../layout
+
+block content
+  h1 Cadastro de dentista
+  br
+  br
+  form(method="POST" , action="/dentista" , role="form-control")
+    div(class="form-group")
+      label Nome:
+      input(type="text" , name="s_nome" , class="form-control")
+    div(class="form-group")
+      label CPF:
+      input(type="text" , name="s_cpf" , class="form-control")
+    input(type="submit", value="Cadastrar" , class="btn btn-sucess")
+    br
+    br
+    a(href="/dentista" title="Voltar") Voltar

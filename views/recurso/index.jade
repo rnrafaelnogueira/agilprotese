@@ -1,0 +1,27 @@
+extends ../layout
+
+block content
+  h1 Listagem de Recurso
+  br
+  br
+  a(href="/recurso/create" title="Cadastrar" class="btn btn-success") Cadastrar
+  br
+  br
+  table(class="table")
+    thead
+      tr
+        th Nome
+        th Controller
+        th Action
+        th Ações
+     tbody
+       each recurso , i in lista
+         tr
+           td #{recurso.s_nome}
+           td #{recurso.s_controller}
+           td #{recurso.s_action}
+           td
+             a(href="/recurso/edit/#{recurso._id}" title="Editar" class="btn btn-info") Editar
+             &nbsp
+             a(href="/recurso/show/#{recurso._id}" title="Visualizar" class="btn btn-primary") Visualizar
+
