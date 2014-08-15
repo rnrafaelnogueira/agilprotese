@@ -13,5 +13,8 @@
     "acl": "*",
     "nodemon" : "*"
     "MD5" : "*"
+  },
+  "scripts": {
+    "start": "node $relative_path_from_repo_dir/app.js"
   }
 }
